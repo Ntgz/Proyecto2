@@ -1,1 +1,13 @@
-Crear base de datos
+1.Crear base de datos atlasdb  y conectar con compass
+2.crear servidor nodejs(crear package json para almacenar dependencias)
+2.1 npm init
+3.crear index.js
+4.Agregar express con "npm i express"
+5.Agregar en package.json ""type": "module"" para importar express
+6.Crear la variable app para crear el servidor
+7.Crear use para el routing(asi lo maneja express)
+8.Instalar dependencia de desarrollo para no estar recargando el server ("npm i --save-dev nodemon")
+9.Conectar base de datos con la app, 1. crear carpeta "config" y dentro de config camos a crear "db.js"
+10.Instalar moongose ("npm i moongose")  para conectar la bd
+11.Configurar archivo db.js con la configuracion de moongose y poner la ruta de atlas que aparece en "connect your aplication"
+12.importar la BD en index.js 
