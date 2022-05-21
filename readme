@@ -20,3 +20,6 @@
 19.Crear carpeta "controller" ahi se exportaran las funciones y se pondran en sus respectivas rutas en la carpeta de routes
 20.Convertir a json para que sea entendido por el front
 21.probar api
+22.colocar "app.use(express.json());" par enviarle datos
+23.importar el modelo en el controler para mandarle datos a la bd
+24. para hashear descargar dependencia (npm i bcrypt)

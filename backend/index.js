@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import conectarDB from './config/db.js'
 import proyectoRoutes from "./routes/proyectoRoutes.js";
 const app = express();
-
+app.use(express.json());
 dotenv.config();
 
 conectarDB();
