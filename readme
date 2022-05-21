@@ -11,3 +11,12 @@
 10.Instalar moongose ("npm i moongose")  para conectar la bd
 11.Configurar archivo db.js con la configuracion de moongose y poner la ruta de atlas que aparece en "connect your aplication"
 12.importar la BD en index.js 
+13. crear variables de entorno para proteger credenciales (.env) se corta la conexion en db.js y se pone la variable decalarada en .env
+14.Se instala la dependencia (npm i dotenv) para leer esos archivos
+15.declarar variable PORT para cuando se haga el deployment en un servidor especializado va a existir,
+16.Crear modelos (carpeta "models") y registrarlo en mongoose,
+17.Crear routing (carpeta "routes") configurarlo y luego exportarlo para importarlo en el index.js
+18.Crear las rutas principales en la carpeta "routes"
+19.Crear carpeta "controller" ahi se exportaran las funciones y se pondran en sus respectivas rutas en la carpeta de routes
+20.Convertir a json para que sea entendido por el front
+21.probar api
