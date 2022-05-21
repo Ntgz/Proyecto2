@@ -23,3 +23,15 @@
 22.colocar "app.use(express.json());" par enviarle datos
 23.importar el modelo en el controler para mandarle datos a la bd
 24. para hashear descargar dependencia (npm i bcrypt)
+FRONTEND
+1.Cargar framework vite "npm init vite@latest" es como "create react app"
+2.instalar dependencias de desarrollo "npm i --save-dev tailwindcss postcss autoprefixer"
+3. instalar tailwindcss "npx tailwindcss init -p"
+4.configurar el tailwind colocar en content lo siguiente ""index.html", "./src/**/*.jsx""
+5.instalar libreria de routing "npm i react-router-dom",
+6. import { BrowserRouter, Routes, Route } from 'react-router-dom'
+7. se customiza el componente con validaciones
+8. se descarga axios para que podamos ingresar datos a la api (npm i axios)
+9. instalar cors para que puedan comunicarse entre urls (npm i cors) DENTRO DEL BACKEND
+10. importar cors en index.js y configurarlo, hacer los llamados en ese orden
+11.comunicar el backend con el FRONTEND
