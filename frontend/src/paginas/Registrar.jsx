@@ -55,7 +55,7 @@ const registrar = () => {
     return (
         <>
             <div>
-                <h1 className="text-orange-600 font-black text-6xl">
+                <h1 className="text-white font-black text-6xl">
                     Crea tu cuenta y Administra
                     <span className="text-black"> tus pacientes</span></h1>
             </div>
